@@ -1,0 +1,20 @@
+---
+title: "This is my now.qmd page title"
+---
+
+This is a Quarto website.
+
+## This is a header
+
+With content ... 
+
+### And a sub-header 
+
+And more content ... 
+
+
+[My Now page](now.qmd)
+
+[My My Project page](pages/project/index.qmd)
+
+[Go back home](index.qmd)
