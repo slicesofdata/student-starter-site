@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "pages/project/page01.html",
+    "href": "pages/project/page01.html",
+    "title": "This is the pages/page01.qmd title",
+    "section": "",
+    "text": "This is a Quarto website."
+  },
+  {
+    "objectID": "pages/project/page01.html#this-is-a-header",
+    "href": "pages/project/page01.html#this-is-a-header",
+    "title": "This is the pages/page01.qmd title",
+    "section": "This is a header",
+    "text": "This is a header\nWith content …\n\nAnd a sub-header\nAnd more content …\nalong with full URL links https://quarto.org/docs/websites or labelled Claremont McKenna College links.\n\n\nAnd a code block"
+  },
+  {
+    "objectID": "now.html",
+    "href": "now.html",
+    "title": "This is my now.qmd page title",
+    "section": "",
+    "text": "This is a Quarto website."
+  },
+  {
+    "objectID": "now.html#this-is-a-header",
+    "href": "now.html#this-is-a-header",
+    "title": "This is my now.qmd page title",
+    "section": "This is a header",
+    "text": "This is a header\nWith content …\n\nAnd a sub-header\nAnd more content …\nMy Now page\nMy My Project page\nGo back home"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "This is the index.qmd page title",
+    "section": "",
+    "text": "If you don’t want a separate your landing page (index.qmd) and your About page (about.qmd), you can make the landing page about you by putting the about.qmd content in the index.qmd.\nThis is a Quarto website."
+  },
+  {
+    "objectID": "index.html#this-is-a-header",
+    "href": "index.html#this-is-a-header",
+    "title": "This is the index.qmd page title",
+    "section": "This is a header",
+    "text": "This is a header\nWith content …\n\nAnd a sub-header\nAnd more content …\nAnd some links to other pages built with Quarto\n\nMy Now page\nMy Project Page\nGo back home"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "This is the about.qmd page title",
+    "section": "",
+    "text": "This is a Quarto website."
+  },
+  {
+    "objectID": "about.html#this-is-a-header",
+    "href": "about.html#this-is-a-header",
+    "title": "This is the about.qmd page title",
+    "section": "This is a header",
+    "text": "This is a header\nWith content …\n\nAnd a sub-header\nAnd more content …"
+  },
+  {
+    "objectID": "pages/project/index.html",
+    "href": "pages/project/index.html",
+    "title": "This is the pages/index page title",
+    "section": "",
+    "text": "This is a Quarto website."
+  },
+  {
+    "objectID": "pages/project/index.html#this-is-a-header",
+    "href": "pages/project/index.html#this-is-a-header",
+    "title": "This is the pages/index page title",
+    "section": "This is a header",
+    "text": "This is a header\nWith content …\n\nAnd a sub-header\nAnd more content …\n\n\nAnd a code block"
+  }
+]

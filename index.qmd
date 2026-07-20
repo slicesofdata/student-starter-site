@@ -1,0 +1,24 @@
+---
+title: "This is the index.qmd page title"
+---
+
+If you don't want a separate your landing page (index.qmd) and your About page (about.qmd), you can make the landing page about you by putting the about.qmd content in the index.qmd.
+
+This is a Quarto website.
+
+## This is a header
+
+With content ... 
+
+### And a sub-header 
+
+And more content ... 
+
+And some links to other pages built with [Quarto](https://quarto.org/)
+
+- [My Now page  ](now.qmd)
+
+- [My Project Page](pages/project/index.qmd)
+
+- [Go back home](index.qmd)
+
