@@ -1,0 +1,19 @@
+# Options specified apply to all qmd files in this folder
+
+# freeze computational output
+# freeze: true
+
+# Enable banner style title blocks
+# title-block-banner: false
+
+# Author name of all posts
+# author: 'Your Name'
+
+# Table of content settings
+#toc: true
+#toc-depth: 3
+
+# https://quarto.org/docs/output-formats/page-layout.html
+# page-layout: article
+page-layout: full
+

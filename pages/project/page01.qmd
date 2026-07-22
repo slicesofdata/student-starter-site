@@ -1,5 +1,5 @@
 ---
-title: "This is the pages/page01.qmd title"
+title: "This is the pages/project/page01.qmd title"
 ---
 
 This is a Quarto website.
