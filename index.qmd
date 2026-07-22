@@ -1,24 +1,34 @@
 ---
-title: "This is the index.qmd page title"
+title: "My Name"       # the title of the index page
+about:
+  # template types
+  #template: jolla
+  template: trestles
+  #template: broadside
+  # image details
+  image: files/profile-pic.jpg
+  image-width: 20em            # to adjust size
+  image-shape: round           # to make round
+  
+  links:
+    # add others
+    - icon: linkedin
+      href: https://www.linkedin.com/school/claremont-mckenna-college/posts/?feedView=all
+    - icon: twitter-x
+      href: https://x.com/CMCnews
+
 ---
 
-If you don't want a separate your landing page (index.qmd) and your About page (about.qmd), you can make the landing page about you by putting the about.qmd content in the index.qmd.
+I am a ... blah blah
 
-This is a Quarto website.
+## Education
 
-## This is a header
+Institution | City, State
+B.A in Degree | start - finish
 
-With content ... 
+## Experience
 
-### And a sub-header 
+Organization A | Title | start - finish
 
-And more content ... 
-
-And some links to other pages built with [Quarto](https://quarto.org/)
-
-- [My Now page  ](now.qmd)
-
-- [My Project Page](pages/project/index.qmd)
-
-- [Go back home](index.qmd)
+Organization b | Title | start - finish
 

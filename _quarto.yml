@@ -4,10 +4,11 @@ project:
   
   output-dir: docs
   render:
-    - "index.qmd"
-    - "about.qmd"
-    - "now.qmd"
-    - "pages/"
+    - "index.qmd"  # index/landing page
+    - "about.qmd"  # about page
+    - "now.qmd"    # now page
+    - "pages/"     # page files
+    - "!posts/"    # don't render blog posts
     
     #- "!pages/"   # to NOT render pages in this dir
     #- "**/*.qmd"  # to render all pages
@@ -17,9 +18,15 @@ project:
 
 website:
   #title: ""                        # omitted
+  #site-url: https://yoursite.com   # needed for rss feed
+  #description: ""                  # optional
+
+  #google-analytics: <Insert your ID here> # if you colelct google data
+  #cookie-consent: true             # if you are collecting cookies
   navbar:
     left: # left side of navbar
       - href: index.qmd             # index/home page
+      
         text: "My Name or Site Title" # home page title (instead of title:)
       - href: now.qmd               # my now page
         text: Now                   # now page title
@@ -52,6 +59,8 @@ website:
         href: https://x.com/CMCnews
       - icon: bluesky
         href: https://bsky.app/profile/cmc.edu
+#      - icon: rss
+#        href: blog.xml
         
 # format and style
 format:

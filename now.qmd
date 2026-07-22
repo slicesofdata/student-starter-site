@@ -15,6 +15,6 @@ And more content ...
 
 [My Now page](now.qmd)
 
-[My My Project page](pages/project/index.qmd)
+[My Project page](pages/project/index.qmd)
 
 [Go back home](index.qmd)
