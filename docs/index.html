@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>This is the index.qmd page title</title>
+<title>My Name</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -37,7 +37,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -279,7 +278,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu" aria-labelledby="nav-menu-project-title-wdd">    
         <li>
     <a class="dropdown-item" href="./pages/project/page01.html">
- <span class="dropdown-text">This is the pages/page01.qmd title</span></a>
+ <span class="dropdown-text">This is the pages/project/page01.qmd title</span></a>
   </li>  
     </ul>
   </li>
@@ -319,48 +318,45 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-
+<div class="quarto-about-trestles">
+  <div class="about-entity">
+    <img src="files/profile-pic.jpg" class="about-image
+  round " style="height: 20em; width: 20em;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">This is the index.qmd page title</h1>
+<h1 class="title">My Name</h1>
 </div>
-
-
-
 <div class="quarto-title-meta">
-
-    
-  
-    
   </div>
-  
-
-
 </header>
+    <div class="about-links">
+  <a href="https://www.linkedin.com/school/claremont-mckenna-college/posts/?feedView=all" class="about-link" rel="" target="">
+    <i class="bi bi-linkedin"></i>
+     <span class="about-link-text"></span>
+  </a>
+  <a href="https://x.com/CMCnews" class="about-link" rel="" target="">
+    <i class="bi bi-twitter-x"></i>
+     <span class="about-link-text"></span>
+  </a>
+</div>
+  </div>
+  <div class="about-contents"><main class="content" id="quarto-document-content">
 
-
-<p>If you don’t want a separate your landing page (index.qmd) and your About page (about.qmd), you can make the landing page about you by putting the about.qmd content in the index.qmd.</p>
-<p>This is a Quarto website.</p>
-<section id="this-is-a-header" class="level2">
-<h2 class="anchored" data-anchor-id="this-is-a-header">This is a header</h2>
-<p>With content …</p>
-<section id="and-a-sub-header" class="level3">
-<h3 class="anchored" data-anchor-id="and-a-sub-header">And a sub-header</h3>
-<p>And more content …</p>
-<p>And some links to other pages built with <a href="https://quarto.org/">Quarto</a></p>
-<ul>
-<li><p><a href="./now.html">My Now page</a></p></li>
-<li><p><a href="./pages/project/index.html">My Project Page</a></p></li>
-<li><p><a href="./index.html">Go back home</a></p></li>
-</ul>
+<p>I am a … blah blah</p>
+<section id="education" class="level2">
+<h2 data-anchor-id="education">Education</h2>
+<p>Institution | City, State B.A in Degree | start - finish</p>
+</section>
+<section id="experience" class="level2">
+<h2 data-anchor-id="experience">Experience</h2>
+<p>Organization A | Title | start - finish</p>
+<p>Organization b | Title | start - finish</p>
 
 
 </section>
-</section>
-
-</main> <!-- /main -->
+</main></div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -376,13 +372,6 @@ ul.task-list li input[type="checkbox"] {
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

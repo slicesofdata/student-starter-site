@@ -2,14 +2,14 @@
   {
     "objectID": "pages/project/page01.html",
     "href": "pages/project/page01.html",
-    "title": "This is the pages/page01.qmd title",
+    "title": "This is the pages/project/page01.qmd title",
     "section": "",
     "text": "This is a Quarto website."
   },
   {
     "objectID": "pages/project/page01.html#this-is-a-header",
     "href": "pages/project/page01.html#this-is-a-header",
-    "title": "This is the pages/page01.qmd title",
+    "title": "This is the pages/project/page01.qmd title",
     "section": "This is a header",
     "text": "This is a header\nWith content …\n\nAnd a sub-header\nAnd more content …\nalong with full URL links https://quarto.org/docs/websites or labelled Claremont McKenna College links.\n\n\nAnd a code block"
   },
@@ -30,16 +30,23 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "This is the index.qmd page title",
+    "title": "My Name",
     "section": "",
-    "text": "If you don’t want a separate your landing page (index.qmd) and your About page (about.qmd), you can make the landing page about you by putting the about.qmd content in the index.qmd.\nThis is a Quarto website."
+    "text": "I am a … blah blah"
   },
   {
-    "objectID": "index.html#this-is-a-header",
-    "href": "index.html#this-is-a-header",
-    "title": "This is the index.qmd page title",
-    "section": "This is a header",
-    "text": "This is a header\nWith content …\n\nAnd a sub-header\nAnd more content …\nAnd some links to other pages built with Quarto\n\nMy Now page\nMy Project Page\nGo back home"
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "My Name",
+    "section": "Education",
+    "text": "Education\nInstitution | City, State B.A in Degree | start - finish"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "My Name",
+    "section": "Experience",
+    "text": "Experience\nOrganization A | Title | start - finish\nOrganization b | Title | start - finish"
   },
   {
     "objectID": "about.html",
@@ -58,14 +65,14 @@
   {
     "objectID": "pages/project/index.html",
     "href": "pages/project/index.html",
-    "title": "This is the pages/index page title",
+    "title": "This is the pages/project/index page title",
     "section": "",
     "text": "This is a Quarto website."
   },
   {
     "objectID": "pages/project/index.html#this-is-a-header",
     "href": "pages/project/index.html#this-is-a-header",
-    "title": "This is the pages/index page title",
+    "title": "This is the pages/project/index page title",
     "section": "This is a header",
     "text": "This is a header\nWith content …\n\nAnd a sub-header\nAnd more content …\n\n\nAnd a code block"
   }
